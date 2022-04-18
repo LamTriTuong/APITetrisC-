@@ -1,0 +1,25 @@
+CREATE DATABASE Tetris
+
+USE [Tetris]
+GO
+
+/****** Object:  Table [dbo].[tetris]    Script Date: 4/18/2022 3:34:21 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[tetris](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[NickName] [nvarchar](max) NOT NULL,
+	[Score] [int] NOT NULL,
+	[LastTimePlay] [datetime2](7) NOT NULL,
+ CONSTRAINT [PK_tetris] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+
+
