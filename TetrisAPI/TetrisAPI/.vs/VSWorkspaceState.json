@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\bin",
+    "\\Controller",
+    "\\Data",
+    "\\Dtos",
+    "\\libs",
+    "\\Migrations",
+    "\\Models",
+    "\\Profile",
+    "\\wwwroot"
+  ],
+  "SelectedNode": "\\Controller\\TetrisController.cs",
+  "PreviewInSolutionExplorer": false
+}

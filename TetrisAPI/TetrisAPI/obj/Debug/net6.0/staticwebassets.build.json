@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "eZk1N3K34dPeHjes+eaXycvTwmz33MAcpiyd5Q1WeLo=",
+  "Source": "TetrisAPI",
+  "BasePath": "_content/TetrisAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "TetrisAPI\\wwwroot",
+      "Source": "TetrisAPI",
+      "ContentRoot": "E:\\LAP TRINH C#\\New folder\\TetrisAPI\\wwwroot\\",
+      "BasePath": "_content/TetrisAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "E:\\LAP TRINH C#\\New folder\\TetrisAPI\\wwwroot\\index.html",
+      "SourceId": "TetrisAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\LAP TRINH C#\\New folder\\TetrisAPI\\wwwroot\\",
+      "BasePath": "_content/TetrisAPI",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}
